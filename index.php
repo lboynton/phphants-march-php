@@ -25,8 +25,7 @@ register_shutdown_function('session_write_close');
 session_start();
 
 // start using the session
-$_SESSION['user']['id'] = 5;
-$_SESSION['user']['username'] = 'jim';
+$_SESSION['user']['username'] = $_GET['username'];
 ?>
 
 <!DOCTYPE html>
