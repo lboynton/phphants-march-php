@@ -1,0 +1,13 @@
+{
+    "name": "lee/php-node-demo",
+    "description": "Demo app for PHP and Node.js integration",
+    "authors": [
+        {
+            "name": "Lee Boynton",
+            "email": "lee@lboynton.com"
+        }
+    ],
+    "require": {
+        "lboynton/memcached-json-session-save-handler": "0.0.1"
+    }
+}

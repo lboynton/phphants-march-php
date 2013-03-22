@@ -1,0 +1,67 @@
+{
+    "hash": "3d186e4ef95a70a81c711d4f2bd42ea8",
+    "packages": [
+        {
+            "name": "lboynton/memcached-json-session-save-handler",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lboynton/memcached-json-session-save-handler.git",
+                "reference": "0.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lboynton/memcached-json-session-save-handler/zipball/0.0.1",
+                "reference": "0.0.1",
+                "shasum": ""
+            },
+            "require": {
+                "ext-memcached": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Lboy": "library"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-2-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Lee Boynton",
+                    "email": "lee@lboynton.com",
+                    "homepage": "http://lboynton.com"
+                }
+            ],
+            "description": "A session save handler for storing sessions in JSON format in memcache. It uses the php-memcached extension.",
+            "homepage": "https://github.com/lboynton/memcached-json-session-save-handler",
+            "keywords": [
+                "json",
+                "memcache",
+                "memcached",
+                "save handler",
+                "session"
+            ],
+            "time": "2013-03-12 20:32:46"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ],
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
