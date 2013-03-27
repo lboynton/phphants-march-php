@@ -1,1 +1,1 @@
-This is the PHP side of the demo app I created for my presentation at the [PHPHants](http://www.phphants.co.uk/) March meet up.
+This is the PHP side of the demo app I created for my [presentation](http://www.slideshare.net/leeboynton/integrating-nodejs-with-php-march-2013-1) at the [PHPHants](http://www.phphants.co.uk/) March meet up.
