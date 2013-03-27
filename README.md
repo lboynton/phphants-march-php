@@ -4,5 +4,7 @@ Running Guide
 ---
 
 1. Install nginx + php-fpm and configure with the nginx config file
-2. Run the node.js app
-3. Connect to the redis shell using the command `redis-cli` and push news items with `rpush news '{"content": "Testy test", "to": "theusername"}'`
+2. Install [bower](http://twitter.github.com/bower/)
+3. Install assets with `bower install`
+4. Run the node.js app
+5. Connect to the redis shell using the command `redis-cli` and push news items with `rpush news '{"content": "Testy test", "to": "theusername"}'`
