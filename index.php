@@ -48,7 +48,7 @@ $_SESSION['user']['username'] = $_GET['username'];
       });
     </script>
     <script type="text/template" id="js-news-template">
-      <p><%- news %></p>
+      <p class="well"><%- news %></p>
     </script>
   </head>
   <body>
