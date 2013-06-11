@@ -42,7 +42,7 @@ $_SESSION['user']['username'] = $_GET['username'];
         var socket = io.connect();
         var template = _.template($('#js-news-template').html());
         socket.on('news', function (news) {
-          element = template({news: news});
+          var element = template({news: news});
           $(element).hide().prependTo('#js-news-container').slideDown();
         });
       });
